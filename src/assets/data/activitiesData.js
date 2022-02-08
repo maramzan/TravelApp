@@ -36,6 +36,16 @@ const activitiesData = [
     title: 'WATER SKI',
     Image: WaterSki,
   },
+  {
+    id: 'activites-7',
+    title: 'HIKE',
+    Image: Hike,
+  },
+  {
+    id: 'activites-8s',
+    title: 'SPA',
+    Image: Spa,
+  },
 ];
 
 export default activitiesData;

@@ -1,10 +1,17 @@
+import React from 'react';
+
+import kayak from '../images/png/kayak.png';
+import kayakBig from '../images/png/kayak-big.png';
+import canyon from '../images/png/canyon-1.png';
+import canyonBig from '../images/png/canyon.png';
+
 const discoverData = [
   {
     id: 'discover-1',
     title: 'Kayaking in the Tofino Sea',
     location: 'Canada',
-    image: require('../images/png/kayak.png'),
-    imageBig: require('../images/png/kayak-big.png'),
+    image: kayak,
+    imageBig: kayakBig,
     description:
       "An ideal introduction to sea kayaking around the stunning historical Islands of Tofino's harbour. Come explore the spectacular scenery of the area and learn what makes the area so fascinating.",
     liked: true,
@@ -16,8 +23,8 @@ const discoverData = [
     id: 'discover-2',
     title: 'Hiking the Grand Canyon',
     location: 'USA',
-    image: require('../images/png/canyon.png'),
-    imageBig: require('../images/png/canyon-big.png'),
+    image: canyon,
+    imageBig: canyonBig,
     description:
       'Great day hikes and backpacking routes on the North and South Rim of this century-old national park include easy hikes overlooking the rim and more rugged trekking options that descend into the canyon.',
     liked: true,
