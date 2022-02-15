@@ -10,6 +10,7 @@ import Discover from './src/screens/discover';
 import Details from './src/screens/details';
 import Profile from './src/screens/Profile';
 import colors from './src/assets/colors/colors';
+import Splash from './src/screens/splash';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -48,15 +49,16 @@ const TabNavigation = () => {
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}>
-        <Stack.Screen name="TabNavigator" component={TabNavigation} />
-        <Stack.Screen name="Details" component={Details} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Splash />
+    // <NavigationContainer>
+    //   <Stack.Navigator
+    //     screenOptions={{
+    //       headerShown: false,
+    //     }}>
+    //     <Stack.Screen name="TabNavigator" component={TabNavigation} />
+    //     <Stack.Screen name="Details" component={Details} />
+    //   </Stack.Navigator>
+    // </NavigationContainer>
   );
 };
 const styles = StyleSheet.create({
